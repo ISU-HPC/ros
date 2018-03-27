@@ -34,12 +34,5 @@ From:ros:indigo-robot
     apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
     apt-get update
     apt-get install -y ros-indigo-desktop-full
-    cd /opt/ros/indigo/share
-    git clone https://github.com/ros-drivers/openni_camera.git
-    git clone https://github.com/jbriales/rgbd_benchmark_tools.git
-    rosdep install rgbd_benchmark_tools --rosdistro indigo -y
-    rosmake rgbd_benchmark_tools
-    rosdep install openni_camera --rosdistro indigo -y
-    rosmake openni_camera
-    rosdep install openni_description --rosdistro indigo -y
-    rosmake openni_description
+
+
