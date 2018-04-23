@@ -1,6 +1,10 @@
 bootstrap:docker
 From:ros:kinetic-robot
 
+%labels
+
+AUTHOR Yasasvy Nanyam ynanyam@iastate.edu
+
 %environment
 
         ROS_ROOT=/opt/ros/kinetic/share/ros
